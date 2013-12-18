@@ -1,0 +1,27 @@
+{
+  "name": "angular-minimal-slider",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lcvinny/angular-minimal-slider",
+  "authors": [
+    "Vinh Hoi Le Chau <mail@lcvinny.de>"
+  ],
+  "description": "Minimalistic touch optimized slider directive for angular.js",
+  "main": ["minimal-slider.js", "minimal-slider.css"],
+  "keywords": [
+    "minimalistic",
+    "touch",
+    "slider",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.5"
+  }
+}
