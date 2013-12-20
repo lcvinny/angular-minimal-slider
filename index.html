@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <link rel="stylesheet" href="minimal-slider.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+    <script type="text/javascript" src="minimal-slider.js"></script>
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,9 +34,12 @@
       </header>
       <section>
         <h1>
-<a name="angular-minimal-slider" class="anchor" href="#angular-minimal-slider"><span class="octicon octicon-link"></span></a>angular-minimal-slider</h1>
+<a name="angular-minimal-slider" class="anchor" href="#angular-minimal-slider"><span class="octicon octicon-link"></span></a>Demo</h1>
 
-<p>Minimalistic touch optimized slider directive for angular.js</p>
+<div ng-app="minimalSlider" ng-init="sliderval=0">
+  Value: {{sliderval | number:2}}
+  <minimal-slider model="sliderval"></minimal-slider>
+</div>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/lcvinny">lcvinny</a></p>
