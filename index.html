@@ -36,6 +36,14 @@
         <h1>
 <a name="angular-minimal-slider" class="anchor" href="#angular-minimal-slider"><span class="octicon octicon-link"></span></a>Demo</h1>
 
+
+<pre><code>&lt;div ng-app="minimalSlider" ng-init="sliderval=0"&gt;
+  Value: {{sliderval | number:2}}
+  &lt;minimal-slider model="sliderval"&gt;&lt;/minimal-slider&gt;
+&lt;/div&gt;</code></pre>
+
+
+
 <div ng-app="minimalSlider" ng-init="sliderval=0">
   Value: {{sliderval | number:2}}
   <minimal-slider model="sliderval"></minimal-slider>
