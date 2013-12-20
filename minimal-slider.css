@@ -1,3 +1,7 @@
+body{
+	-webkit-tap-highlight-color:  transparent;
+}
+
 .minimal-slider{
 	position: relative;
 	border: 1px solid;
@@ -12,7 +16,7 @@
 	background: grey;
 	width: 50px;
 	height: 50px;
-	left: -25px;
+	left: 0px;
 	top: -17.5px;
 	vertical-align: middle;
 }
