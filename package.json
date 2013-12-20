@@ -1,6 +1,6 @@
 {
   "name": "minimal-slider",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-watch": "~0.5.3",

@@ -1,5 +1,10 @@
 body{
 	-webkit-tap-highlight-color:  transparent;
+	user-select: none;
+	-o-user-select: none; 
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
 }
 
 .minimal-slider{
