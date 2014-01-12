@@ -1,12 +1,10 @@
 angular.module('minimalSlider', [])
 	.directive('minimalSlider', function($document, $window){
-		
+
 		var setRatio = function(scope, elem, eventX){
 			var slider = angular.element(elem.children()[0]);
-			var thumb = angular.element(slider.children()[0]);
 			var sliderWidth = slider.prop('offsetWidth');
-			var sliderLeft = slider.prop('offsetLeft');
-
+			var sliderLeft = elem.children()[0].getBoundingClientRect().left;
 			var pos = eventX - sliderLeft;
 			pos = Math.min(Math.max(pos, 0), sliderWidth);
 			scope.model = pos / sliderWidth;
