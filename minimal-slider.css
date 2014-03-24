@@ -1,28 +1,32 @@
+html{
+	font-size: 5mm; 
+}
+
 body{
 	-webkit-tap-highlight-color:  transparent;
 	user-select: none;
 	-o-user-select: none; 
 	-moz-user-select: none; 
 	-khtml-user-select: none; 
-	-webkit-user-select: none; 
+	-webkit-user-select: none;
 }
 
 .minimal-slider{
 	position: relative;
-	border: 1px solid;
+	border: 2px solid;
 	width: 80%;
-	height: 15px;
-	margin: 20px;
-	border-radius: 15px;
+	height: 3rem;
+	margin: 50px;
+	border-radius: 1.5rem;
 }
 
 .minimal-slider-thumb{
 	position: relative;
 	background: grey;
-	width: 30px;
-	height: 30px;
+	width: 3rem;
+	height: 3rem;
 	left: 0px;
-	top: -9.5px;
+	top: 0rem;
 	vertical-align: middle;
-	border-radius: 15px;
+	border-radius: 1.5rem;
 }
